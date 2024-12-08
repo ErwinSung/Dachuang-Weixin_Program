@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/monitor/monitor",
+    "pages/myPage/myPage",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "监测小程序",
+    "navigationBarBackgroundColor": "#000"
+  },
+  
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#4C4D4E",
+    "selectedColor": "#BDA066",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-fill.png"
+      },
+      {
+        "text": "实时画面",
+        "pagePath": "pages/monitor/monitor",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news-fill.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/myPage/myPage",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "dachuang-header": "/components/dachuang-header/dachuang-header",
+    "dachuang-footer":"/components/dachuang-footer/dachuang-footer"
+  }
+}
+
+  

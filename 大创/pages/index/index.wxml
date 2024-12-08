@@ -1,0 +1,53 @@
+<dachuang-header></dachuang-header>
+
+<view class="banner">
+<swiper
+ previous-margin="30rpx"
+ circular
+ autoplay
+ interval="3000"
+ indicator-dots
+ indicator-active-color="#BDA066"
+ indicator-color="rgba(255,255,255,0.3)"
+ >
+  <swiper-item>
+    <image src="/images/banner01.jpg" mode=""/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/userpic.png" mode=""/>
+  </swiper-item>
+</swiper>
+
+</view>
+
+<view class="scrollNav">
+  <scroll-view scroll-x>
+
+      <navigator url="" class="item" wx:for="{{4}}" wx:key="index">
+      <view class="pic">
+         <image src="/images/navicon{{index+1}}.png" mode=""/>
+      </view>
+      <view class="text">
+       关于项目
+      </view>
+      </navigator>
+
+  </scroll-view>
+</view>
+
+<view class="about">
+   <view class="publicTitle">
+     <view class="en">introduce</view>
+     <view class="cn">项目介绍</view>
+     <view class="line"></view>
+   </view>
+   <view class="content"> 
+    <view class="row">介绍信息1</view><!-- 打消息 -->
+    <view class="row">介绍信息2</view><!-- 打消息 -->
+    <view class="row">介绍信息3</view><!-- 打消息 -->
+   </view>
+</view>
+
+
+
+<dachuang-footer></dachuang-footer>

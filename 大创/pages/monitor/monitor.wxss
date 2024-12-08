@@ -1,0 +1,64 @@
+/* pages/monitor/monitor.wxss */
+page {
+  background:linear-gradient(rgb(146, 145, 145),rgb(77, 75, 78));
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.play{
+  width: 100%;
+  height: 500rpx;
+}
+.play image{
+  width: 100%;
+  height: 500rpx;
+}
+.userinfo-nickname {
+  color: rgb(245, 231, 231);
+}
+
+.usermotto {
+  margin-top: 50px;
+  font-size: 24;
+  color: rgb(245, 231, 231);
+}
+
+/*view {
+  margin-top: 10px;
+}*/
+
+button {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(14, 187, 92);
+  color: white;
+  border-radius: 98rpx;
+  margin-top: 20px;
+}
+
+.btn1 {
+  margin-top: 100px;
+  background-color: rgb(14, 187, 92);
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+}
+
+.btn2 {
+  background: rgb(241, 72, 72);
+}
+
+.btn2::after {
+  border-radius: 98rpx;
+}
+

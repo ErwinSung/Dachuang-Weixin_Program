@@ -1,0 +1,49 @@
+view,text{
+  box-sizing:border-box;
+}
+page{
+  --themeColor: red;
+  --globalColor: #1a1b1c;
+  --focusColor: #4c4d4e;
+  --descColor: #7e8081;
+  --greyColor: #8e8e8e;
+  --lightColor: #e4e4e4;
+  --globalgColor1: #e3e4e5;
+  --globalgColor2: #f6f7f8;
+  --globalgColor3: #ffffff;
+}
+
+.publicTitle{
+  text-align: center;
+}
+.publicTitle .en{
+  font-size: 86rpx;
+  font-weight:900;
+  text-transform:uppercase;
+  color:var(--globalColor);
+  opacity: 0.1;
+}
+.publicTitle .cn{
+  font-size: 56rpx;
+  font-weight:900;
+  transform: tramslateY(-60rpx);
+  color:var(--globalColor)
+}
+.publicTitle .line{
+   width: 100px;
+   height: 5rpx;
+   background: var(--globalColor);
+   opacity: 0.7;
+   display: inline-block;
+   transform: translateY(-40rpx);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rpx 0;
+  box-sizing: border-box;
+} 
